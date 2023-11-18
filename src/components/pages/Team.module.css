@@ -1,0 +1,13 @@
+.MainCard {
+    position: absolute;
+    text-align: center;
+    z-index: -1;
+}
+
+.Title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7em;
+    font-size: 30px;
+}

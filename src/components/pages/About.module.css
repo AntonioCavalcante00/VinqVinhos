@@ -1,0 +1,15 @@
+.Container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Container p {
+    margin-top: 4em;
+    max-width: 70em;
+}
+
+.Title {
+    font-size: 30px;
+    margin-top: 1.7em;
+}

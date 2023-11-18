@@ -1,0 +1,33 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.Introducion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 28em;
+    margin-left: 2em;
+    font: 100;
+}
+
+.Divider {
+    display: flex;
+    color: #800000;
+}
+
+.Introducion p {
+    display: flex;
+    margin-top: 28px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.Wallpaper img {
+    height: 500px;
+    width: 830px;
+    box-shadow: 0 1px 35px 1px;
+    border-radius: 20px;
+}

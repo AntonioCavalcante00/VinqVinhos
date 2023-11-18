@@ -1,0 +1,53 @@
+.MainContainer {
+    display: flex;
+    margin-bottom: 160px;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #800000;
+    height: 11em;
+    position: fixed;
+    width: 100%;
+}
+
+.Icon {
+    display: flex;
+    margin-right: 39em;
+}
+
+.Links {
+    display: flex;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #bab6b6;
+}
+
+.Links ul {
+    display: flex;
+}
+
+.Links:hover {
+    color: white;
+    transition: 1.2s;
+}
+
+
+li {
+    display: flex;
+    margin: 20px;
+    list-style: none;
+    transition: 0.5s ease-in;
+}
+
+li:hover {
+    border-bottom: 1px solid white;
+}
+
+.Icon img {
+    display: flex;
+    margin: 0 20px;
+    max-height: 150px;
+}

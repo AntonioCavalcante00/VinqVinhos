@@ -1,0 +1,35 @@
+.ScrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #800000;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.ScrollToTopButton.Show {
+    opacity: 1;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.ScrollToTopButton:hover {
+    transition: 0.4s ease-in;
+    background-color: #b80808;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
