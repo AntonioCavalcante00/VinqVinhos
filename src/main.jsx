@@ -10,6 +10,8 @@ import About from './components/pages/About'
 import App from './App'
 
 
+import AgeConfirm from './components/layout/AgeConfirm'
+
 const router = createBrowserRouter([
   {
     element: <App />,
@@ -28,10 +30,13 @@ const router = createBrowserRouter([
       {
         path: '/quemsomos',
         element: <About />,
-      },
-
+      }
     ]
+  },
 
+  {
+    path: '/ageconfirm',
+    element: <AgeConfirm />
   }
 ])
 

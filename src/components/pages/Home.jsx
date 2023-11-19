@@ -1,3 +1,4 @@
+import { Box } from '@mui/material';
 import SimpleSlider from '../layout/Slider'
 import wallpaper from '../public/natal.jpg'
 import styles from './Home.module.css'
@@ -12,9 +13,10 @@ export function Home() {
                 <SimpleSlider />
             </div>
 
-            <div>
-                <Divider variant="inset" color='#800000' />
-            </div>
+            <Box sx={{ width: '100', marginLeft: 5, marginRight: 5 }}>
+                <Divider sx={{ backgroundColor: '#800000', height: 1.3 }} />
+            </Box>
+
 
             <div className={styles.Container}>
                 <div className={styles.Wallpaper}>
@@ -35,6 +37,11 @@ export function Home() {
                     </div>
                 </div>
             </div>
+
+            <Box sx={{ width: '100', marginLeft: 5, marginRight: 5, height: 50 }}>
+                <Divider sx={{ backgroundColor: '#800000', height: 1.3 }} />
+            </Box>
+
         </>
     )
 }

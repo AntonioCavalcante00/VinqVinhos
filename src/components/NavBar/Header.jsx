@@ -16,22 +16,22 @@ export function Header() {
                 <div className={s.Links}>
                     <ul>
                         <li>
-                            <Link to='/' className={s.Links}>
+                            <Link to='/' unstable_viewTransition className={s.Links}>
                                 INICIO
                             </Link>
                         </li>
                         <li>
-                            <Link to='#' className={s.Links}>
+                            <Link to='#' unstable_viewTransition className={s.Links}>
                                 VINHOS
                             </Link>
                         </li>
                         <li>
-                            <Link to='/funcionarios' className={s.Links}>
+                            <Link to='/funcionarios' unstable_viewTransition className={s.Links}>
                                 FUNCIONÁRIOS
                             </Link>
                         </li>
                         <li>
-                            <Link to='/quemsomos' className={s.Links}>
+                            <Link to='/quemsomos' unstable_viewTransition className={s.Links}>
                                 QUEM SOMOS?
                             </Link>
                         </li>

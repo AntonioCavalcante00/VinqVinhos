@@ -1,0 +1,48 @@
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 24em;
+    color: #000000;
+}
+
+.Container p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Sponsors {
+    display: flex;
+    align-items: center;
+
+}
+
+.Sponsors img {
+    display: flex;
+    width: 200px;
+    margin-bottom: 25px;
+    margin: 19px 60px;
+}
+
+.Social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Link {
+    display: flex;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: #585757;
+}
+
+.Right span {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}

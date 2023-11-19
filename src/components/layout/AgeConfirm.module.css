@@ -1,0 +1,16 @@
+.MainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.Logo {
+    width: 170px;
+}
+
+.Title {
+    margin-bottom: 1em;
+    font-size: 26px !important;
+}

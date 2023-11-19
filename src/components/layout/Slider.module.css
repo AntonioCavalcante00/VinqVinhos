@@ -1,7 +1,8 @@
 .Wallpapers {
-    margin-bottom: 100px;
-    position: relative;
+    margin-bottom: 60px;
+    /* position: relative; */
     z-index: -1;
+    overflow: hidden;
 }
 
 .img img {

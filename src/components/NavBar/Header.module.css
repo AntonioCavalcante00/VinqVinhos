@@ -8,14 +8,14 @@
     align-items: center;
     justify-content: center;
     background-color: #800000;
-    height: 11em;
+    height: 10em;
     position: fixed;
     width: 100%;
 }
 
 .Icon {
     display: flex;
-    margin-right: 39em;
+    margin-right: 35em;
 }
 
 .Links {
