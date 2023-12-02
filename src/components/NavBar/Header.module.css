@@ -6,7 +6,6 @@
 .Container {
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #800000;
     position: fixed;
     height: 12em;
@@ -16,7 +15,7 @@
 
 .Icon {
     display: flex;
-    margin-right: 35em;
+    margin-right: 40em;
 }
 
 .Links {
@@ -38,7 +37,7 @@
 
 li {
     display: flex;
-    margin: 20px;
+    margin: 13px;
     list-style: none;
     transition: 0.5s ease-in;
 }
@@ -55,14 +54,16 @@ li:hover {
 
 
 @media screen and (max-width: 768px) {
+    .MainContainer {
+        display: grid;
+        margin-bottom: 30px;
+    }
+
     .Container {
         display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
         background-color: #800000;
         position: fixed;
-        height: 14em;
         width: 100%;
         z-index: 1000;
     }
@@ -82,7 +83,6 @@ li:hover {
 
     li {
         display: flex;
-        margin: 20px;
         list-style: none;
         transition: 0.5s ease-in;
     }
