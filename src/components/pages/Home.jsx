@@ -39,6 +39,7 @@ export function Home() {
                 </div>
             </div>
 
+
             <div className={styles.VinhosHome}>
                 <VinhosHome />
             </div>

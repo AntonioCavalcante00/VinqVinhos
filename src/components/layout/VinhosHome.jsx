@@ -1,4 +1,3 @@
-import { Box, Divider } from '@mui/material'
 import CardVinhos from './CardVinhos'
 
 import s from './VinhosHome.module.css'
@@ -24,10 +23,6 @@ export default function VinhoHome() {
                         Price='80,00' imageUrl={Pizzorno} />
                 </div>
             </div>
-
-            <Box sx={{ width: '100', marginLeft: 5, marginRight: 5, marginTop: 10 }}>
-                <Divider sx={{ backgroundColor: '#800000', height: 1.3 }} />
-            </Box>
         </>
     )
 }

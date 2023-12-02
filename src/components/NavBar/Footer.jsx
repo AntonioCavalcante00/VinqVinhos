@@ -18,10 +18,10 @@ import ParkStreet from '../public/Sponsors/parkstreet.png'
 export default function Footer() {
     return (
         <>
-            <Box sx={{ width: '100', marginLeft: 5, marginRight: 5, height: 50, marginBottom: 5 }}>
+
+            <Box sx={{ width: '100', marginLeft: 5, marginRight: 5, marginTop: 10, marginBottom: 10 }}>
                 <Divider sx={{ backgroundColor: '#800000', height: 1.3 }} />
             </Box>
-
             <div className={s.Container}>
                 <p>Patrocinadores</p>
                 <div className={s.Sponsors}>
