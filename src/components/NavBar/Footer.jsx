@@ -4,6 +4,7 @@ import s from './Footer.module.css'
 import { FiInstagram } from "react-icons/fi";
 import { BsTwitterX, BsFacebook } from "react-icons/bs";
 
+import { Box, Divider } from '@mui/material';
 
 
 import GrandCru from '../public/Sponsors/GrandCru.svg'
@@ -17,6 +18,10 @@ import ParkStreet from '../public/Sponsors/parkstreet.png'
 export default function Footer() {
     return (
         <>
+            <Box sx={{ width: '100', marginLeft: 5, marginRight: 5, height: 50, marginBottom: 10 }}>
+                <Divider sx={{ backgroundColor: '#800000', height: 1.3 }} />
+            </Box>
+
             <div className={s.Container}>
                 <p>Patrocinadores</p>
                 <div className={s.Sponsors}>
