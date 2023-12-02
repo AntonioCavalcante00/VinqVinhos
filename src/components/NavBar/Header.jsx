@@ -21,7 +21,7 @@ export function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link to='#' unstable_viewTransition className={s.Links}>
+                            <Link to='/vinhos' unstable_viewTransition className={s.Links}>
                                 VINHOS
                             </Link>
                         </li>

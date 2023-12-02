@@ -32,14 +32,15 @@
 }
 
 .ButtonNo {
-    color: black;
+    background-color: #800000;
+    color: white;
 
 }
 
 .ButtonNo:hover {
     transition: 0.8s ease;
-    background-color: #8d0606;
-    color: white;
+    background-color: #d14545;
+    cursor: pointer;
 }
 
 .ButtonYes {
@@ -50,6 +51,7 @@
 .ButtonYes:hover {
     transition: 0.8s ease;
     background-color: #d14545;
+    cursor: pointer;
 }
 
 .Buttons button {

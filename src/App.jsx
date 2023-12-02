@@ -3,7 +3,6 @@ import { Outlet } from 'react-router-dom';
 import { Header } from "./components/NavBar/Header";
 import Footer from "./components/NavBar/Footer";
 import BackButton from "./components/layout/BackButton";
-
 import AgeConfirm from './components/layout/AgeConfirm';
 
 import { useState } from 'react';
@@ -21,6 +20,7 @@ function App() {
     return (
         <>
             <Header />
+
             {showAgeConfirm && (
                 <AgeConfirm onClose={handleAgeConfirmClose} />
             )}

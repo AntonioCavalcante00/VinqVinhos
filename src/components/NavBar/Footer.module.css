@@ -46,3 +46,17 @@
     margin-top: 30px;
     justify-content: center;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .Sponsors {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .Right {
+        display: flex;
+        justify-content: center;
+    }
+}

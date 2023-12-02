@@ -22,14 +22,14 @@ function Team() {
                     <h1>Funcionários</h1>
                 </div>
                 <div className={s.MainCard}>
-                    <Box m={13} sx={{ display: 'grid', gap: 3, gridTemplateColumns: 'repeat(4, 1fr)' }} >
-                        <AreaCard className={s.Card} name='Zeias' profession='Proprietario das Terras' imageUrl={dono} />
-                        <AreaCard className={s.Card} name='Pedro Nobre' profession='Controle de Qualidade' imageUrl={pedro} />
-                        <AreaCard className={s.Card} name='Marcone' profession='Sommelier' imageUrl={marcone} />
-                        <AreaCard className={s.Card} name='Antonio Cavalcante' profession='Departamento Financeiro' imageUrl={antonio} />
-                        <AreaCard className={s.Card} name='Calebe Melo' profession='Gerente de Produção' imageUrl={calebe} />
-                        <AreaCard className={s.Card} name='João Lucas' profession='Enólogo' imageUrl={joao} />
-                        <AreaCard className={s.Card} name='Amauri' profession='Gerente de Vendas' imageUrl={amauri} />
+                    <Box sx={{ display: 'grid', gap: 3, gridTemplateColumns: 'repeat(4, 1fr)' }} >
+                        <AreaCard name='Zeias' profession='Proprietario das Terras' imageUrl={dono} />
+                        <AreaCard name='Pedro Nobre' profession='Controle de Qualidade' imageUrl={pedro} />
+                        <AreaCard name='Marcone' profession='Sommelier' imageUrl={marcone} />
+                        <AreaCard name='Antonio Cavalcante' profession='Departamento Financeiro' imageUrl={antonio} />
+                        <AreaCard name='Calebe Melo' profession='Gerente de Produção' imageUrl={calebe} />
+                        <AreaCard name='João Lucas' profession='Enólogo' imageUrl={joao} />
+                        <AreaCard name='Amauri' profession='Gerente de Vendas' imageUrl={amauri} />
                     </Box>
                 </div>
             </div>

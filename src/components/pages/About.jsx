@@ -21,6 +21,13 @@ function About() {
                     confie na VinQ - Vinhos para guiá-lo em sua jornada pelo fascinante mundo dos vinhos.</p>
             </div>
 
+
+            <iframe
+                width="450"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBaEjgWsMCHt8L7KW_mD1G35L9R018RpPo&q=Space+Needle,Seattle+WA">
+
+            </iframe>
+
             <Box sx={{ width: '100', marginLeft: 5, marginRight: 5, marginTop: 10 }}>
                 <Divider sx={{ backgroundColor: '#800000', height: 1.3 }} />
             </Box>

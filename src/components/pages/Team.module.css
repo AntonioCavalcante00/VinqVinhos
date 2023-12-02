@@ -4,15 +4,20 @@
     flex-direction: column;
 }
 
+.Card {
+    display: flex;
+}
+
 .MainCard {
     text-align: center;
     z-index: -1;
+    margin-top: 1.7em;
 }
 
 .Title {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 30px;
-    margin-top: 1.4em;
+    font-size: 20px;
+    margin-top: 1.7em;
 }

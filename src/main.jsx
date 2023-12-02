@@ -8,9 +8,7 @@ import { Home } from './components/pages/Home'
 import Team from './components/pages/Team'
 import About from './components/pages/About'
 import App from './App'
-
-
-import AgeConfirm from './components/layout/AgeConfirm'
+import Vinhos from './components/pages/Vinhos'
 
 const router = createBrowserRouter([
   {
@@ -30,14 +28,14 @@ const router = createBrowserRouter([
       {
         path: '/quemsomos',
         element: <About />,
+      },
+
+      {
+        path: '/vinhos',
+        element: <Vinhos />
       }
     ]
   },
-
-  {
-    path: '/ageconfirm',
-    element: <AgeConfirm />
-  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

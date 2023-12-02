@@ -32,3 +32,35 @@
     box-shadow: 0 1px 35px 1px;
     border-radius: 20px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .Container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .Introducion h2 {
+        display: flex;
+        width: 30em;
+        margin-top: 30px;
+    }
+
+    .Introducion p {
+        display: flex;
+        width: 40em;
+        font-size: 17px;
+    }
+
+    .Wallpaper img {
+        height: 400px;
+        width: 630px;
+        box-shadow: 0 1px 35px 1px;
+        border-radius: 20px;
+    }
+
+}

@@ -1,0 +1,67 @@
+.CardBuy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 5px;
+}
+
+.Button {
+    margin-right: 20px;
+    background-color: #800000;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 19px 50px;
+    cursor: pointer;
+}
+
+.Button:hover {
+    transition: 0.8s ease;
+    background-color: #d14545;
+    cursor: pointer;
+}
+
+.NameButton {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.Favorite {
+    cursor: pointer;
+    width: 20px;
+    border: none;
+    padding: 10px;
+    background-color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .Container {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .CardBuy {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Button {
+        margin: 10px 0;
+        padding: 10px 20px;
+    }
+
+    .Favorite {
+        margin-top: 10px;
+    }
+}
