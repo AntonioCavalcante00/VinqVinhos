@@ -55,15 +55,15 @@ li:hover {
 
 @media screen and (max-width: 768px) {
     .MainContainer {
-        display: grid;
-        margin-bottom: 30px;
+        display: flex;
     }
 
     .Container {
         display: flex;
+        align-items: center;
         flex-direction: column;
         background-color: #800000;
-        position: fixed;
+        height: 12em;
         width: 100%;
         z-index: 1000;
     }

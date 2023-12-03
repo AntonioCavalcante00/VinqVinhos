@@ -19,18 +19,19 @@ function App() {
 
     return (
         <>
-            <Header />
+            <div className={s.GlobalContainer}>
+                <Header />
 
-            {showAgeConfirm && (
-                <AgeConfirm onClose={handleAgeConfirmClose} />
-            )}
+                {showAgeConfirm && (
+                    <AgeConfirm onClose={handleAgeConfirmClose} />
+                )}
 
-            <div className={s.Outlet}>
                 <Outlet />
-            </div>
-            <BackButton />
 
-            <Footer />
+                <BackButton />
+
+                <Footer />
+            </div>
         </>
     )
 }
