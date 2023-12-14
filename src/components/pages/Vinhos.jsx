@@ -38,6 +38,7 @@ export default function Vinhos() {
                         <CardVinhos className={s.Cards} Title='Em Breve' Continent='Em Breve' />
                         <CardVinhos className={s.Cards} Title='Em Breve' Continent='Em Breve' />
                     </Box>
+
                 </div>
             </div>
         </>

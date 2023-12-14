@@ -1,5 +1,4 @@
-import { Box, Divider } from '@mui/material';
-
+import Map from '../layout/Map';
 
 import s from './About.module.css'
 
@@ -21,12 +20,7 @@ function About() {
                     confie na VinQ - Vinhos para guiá-lo em sua jornada pelo fascinante mundo dos vinhos.</p>
             </div>
 
-
-            <iframe
-                width="450"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBaEjgWsMCHt8L7KW_mD1G35L9R018RpPo&q=Space+Needle,Seattle+WA">
-
-            </iframe>
+            <Map />
 
 
         </>

@@ -1,4 +1,4 @@
-import { Box, Divider } from "@mui/material"
+import { Box } from "@mui/material"
 
 import AreaCard from "../layout/AreaCard"
 
@@ -33,10 +33,6 @@ function Team() {
                     </Box>
                 </div>
             </div>
-
-            <Box sx={{ width: '100', marginLeft: 5, marginRight: 5, marginTop: 10 }}>
-                <Divider sx={{ backgroundColor: '#800000', height: 1.3 }} />
-            </Box>
         </>
     )
 }
