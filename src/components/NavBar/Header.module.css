@@ -6,6 +6,7 @@
 .Container {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #800000;
     position: fixed;
     height: 12em;

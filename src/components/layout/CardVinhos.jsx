@@ -31,8 +31,9 @@ const AreaCard = ({ imageUrl, Title, Continent, Price }) => {
                     component="img"
                     height="370"
                     image={imageUrl}
-                    alt="Imagem do Card" />
-                <CardContent>
+                    alt="Imagem do Card"
+                    className={s.Cards} />
+                <CardContent las>
                     <Typography gutterBottom variant="h6" component="div">
                         {Title}
                     </Typography>

@@ -74,6 +74,7 @@
         display: block;
         align-items: center;
         justify-content: center;
+        margin-right: 33px;
     }
 
     .Right {

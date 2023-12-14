@@ -28,9 +28,6 @@ function About() {
 
             </iframe>
 
-            <Box sx={{ width: '100', marginLeft: 5, marginRight: 5, marginTop: 10 }}>
-                <Divider sx={{ backgroundColor: '#800000', height: 1.3 }} />
-            </Box>
 
         </>
     )
