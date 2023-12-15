@@ -20,7 +20,7 @@ export default function VinhoHome() {
 
             <div className={s.Container}>
                 <div className={s.MainCard}>
-                    <CardVinhos Title='Planeta Etna Rosso DOC 2020 750mL' Continent='Itália · Nerello Mascalese'
+                    <CardVinhos Title='Planeta Etna Rosso DOC 2020 750mL' Continent='Itália · Nerello '
                         Price='385,99' imageUrl={PlanetaEtna} />
                     <CardVinhos Title='Château Baret Pessac-Léognan AOC 2012 750mL' Continent='França · Blend'
                         Price='372,94' imageUrl={ChateauBaret} />

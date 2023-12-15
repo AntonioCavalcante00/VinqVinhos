@@ -64,8 +64,8 @@
 
 @media screen and (max-width: 768px) {
     .Container {
-        width: 130px;
-        box-sizing: border-box;
+        width: 120px;
+        height: 600px;
     }
 
     .Title {
@@ -88,13 +88,13 @@
 
     .CardBuy {
         display: flex;
+        justify-content: center;
         flex-direction: row;
         align-items: center;
         text-align: center;
     }
 
     .Button {
-        margin-right: 1;
         border-radius: 20px;
         padding: 10px 13px;
         cursor: pointer;
