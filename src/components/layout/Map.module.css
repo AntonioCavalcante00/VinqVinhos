@@ -1,6 +1,6 @@
 .Maps {
-    height: 400px;
-    width: 500px;
+    height: 500px;
+    width: 800px;
     z-index: 1;
     display: flex;
     position: relative;

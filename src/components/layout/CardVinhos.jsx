@@ -28,20 +28,25 @@ const AreaCard = ({ imageUrl, Title, Continent, Price }) => {
         <>
             <Card className={s.Container}>
                 <CardMedia
-                    component="img"
-                    height="370"
+                    component="image"
                     image={imageUrl}
                     alt="Imagem do Card"
                     className={s.Cards} />
                 <CardContent las>
-                    <Typography gutterBottom variant="h6" component="div">
-                        {Title}
+                    <Typography gutterBottom component="div">
+                        <div className={s.Title}>
+                            {Title}
+                        </div>
                     </Typography>
                     <Typography variant="body1" color="text.secondary">
-                        {Continent}
+                        <div className={s.Continent}>
+                            {Continent}
+                        </div>
                     </Typography>
-                    <Typography variant='h5' marginTop='1em'>
-                        R$ {Price}
+                    <Typography marginTop='1em'>
+                        <div className={s.Price}>
+                            R$ {Price}
+                        </div>
                     </Typography>
                     <div className={s.CardBuy}>
                         <button className={s.Button}>

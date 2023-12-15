@@ -5,8 +5,6 @@ import s from './About.module.css'
 function About() {
     return (
         <>
-
-
             <div className={s.Container}>
                 <div className={s.Title}>
                     <h1>Quem Somos?</h1>
@@ -18,11 +16,10 @@ function About() {
                     e gratificante para todos aqueles que apreciam o universo do vinho. Seja para presentear, comemorar ou
                     simplesmente desfrutar de momentos agradáveis,
                     confie na VinQ - Vinhos para guiá-lo em sua jornada pelo fascinante mundo dos vinhos.</p>
+                <p>Local do Vinhedo</p>
+                <Map />
+
             </div>
-
-            <Map />
-
-
         </>
     )
 }

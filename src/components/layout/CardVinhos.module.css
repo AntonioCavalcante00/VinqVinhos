@@ -4,11 +4,30 @@
     justify-content: center;
 }
 
+.Title {
+    font-size: 19px;
+    margin: 20px 0;
+}
+
+.Continent {
+    font-size: 16px;
+}
+
+.Price {
+    font-size: 20px;
+}
+
+.Cards {
+    height: 300px;
+    width: 200px;
+}
+
 .Container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0 5px;
+    margin: 0 1px;
+    width: 300px;
 }
 
 .Button {
@@ -45,15 +64,21 @@
 
 @media screen and (max-width: 768px) {
     .Container {
-        width: 100%;
-        padding: 10px;
+        width: 130px;
         box-sizing: border-box;
     }
 
-    .CardBuy {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .Title {
+        font-size: 15px;
+        margin: 12px 0;
+    }
+
+    .Continent {
+        font-size: 13px;
+    }
+
+    .Price {
+        font-size: 20px;
     }
 
     .Button {
@@ -61,7 +86,22 @@
         padding: 10px 20px;
     }
 
-    .Favorite {
-        margin-top: 10px;
+    .CardBuy {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
     }
+
+    .Button {
+        margin-right: 1;
+        border-radius: 20px;
+        padding: 10px 13px;
+        cursor: pointer;
+    }
+
+    .Favorite {
+        padding: 0;
+    }
+
 }

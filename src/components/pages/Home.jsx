@@ -4,7 +4,7 @@ import wallpaper from '../public/natal.jpg'
 import styles from './Home.module.css'
 
 import Divider from '@mui/material/Divider';
-// import VinhosHome from '../layout/VinhosHome'
+import VinhosHome from '../layout/PageVinhos/VinhosHome'
 
 export function Home() {
     return (
@@ -40,9 +40,9 @@ export function Home() {
             </div>
 
 
-            {/* <div className={styles.VinhosHome}>
+            <div className={styles.VinhosHome}>
                 <VinhosHome />
-            </div> */}
+            </div>
 
         </>
     )
